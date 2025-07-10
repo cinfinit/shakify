@@ -11,7 +11,7 @@ In other words — it **helps you avoid bloated bundles** by letting you pick sm
 > Think of it as a lie detector for npm modules that *claim* to be lightweight.
 ---
 ## ✨ Features
-- ✅ Detects tree-shaking support (`sideEffects: false`)
+- ✅ Detects tree-shaking support
 - 🔍 Shows ESM vs CommonJS support
 - 📦 Analyzes per-export size (raw + gzipped)
 - ⚡ Caches results (with manual clearing via `--clear-cache`)
