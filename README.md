@@ -22,20 +22,20 @@ In other words — it **helps you avoid bloated bundles** by letting you pick sm
 ```bash
 npm install -g shakify
 ```
-🚀 Usage
+## 🚀 Usage
 ```bash
 shakify-cli <package-name>
 ```
-Example:
+### Example:
 ```bash
 shakify-cli lodash-es
 ```
-To clear cached results:
+### To clear cached results:
 ```bash
 shakify-cli react --clear-cache
 ```
 
-🖼 Sample Output
+## 🖼 Sample Output
 ```
 === Package Analysis: lodash-es@4.17.21 ===
 ESM Support:        true
@@ -67,7 +67,7 @@ shakify helps you:
 ## 🔁 Caching
 Shakify caches results in your system’s temp directory.
 
-Want to refresh the results?
+### Want to refresh the results?
 ```bash
 shakify-cli <package-name> --clear-cache
 ```
