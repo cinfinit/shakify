@@ -24,15 +24,15 @@ npm install -g shakify
 ```
 ## 🚀 Usage
 ```bash
-shakify-cli <package-name>
+npx shakify-cli <package-name>
 ```
 ### Example:
 ```bash
-shakify-cli lodash-es
+npx shakify-cli lodash-es
 ```
 ### To clear cached results:
 ```bash
-shakify-cli react --clear-cache
+npx shakify-cli react --clear-cache
 ```
 
 ## 🖼 Sample Output
@@ -69,7 +69,7 @@ Shakify caches results in your system’s temp directory.
 
 ### Want to refresh the results?
 ```bash
-shakify-cli <package-name> --clear-cache
+npx shakify-cli <package-name> --clear-cache
 ```
 ---
 Shakify doesn’t judge — it just snitches 📦⚖️
