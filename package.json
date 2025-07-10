@@ -1,0 +1,54 @@
+{
+  "name": "shakify",
+  "version": "1.0.0",
+  "description": "🔍 Smart Tree-shaking Analyzer for npm packages",
+  "main": "lib/analyzer.js",
+  "bin": {
+    "shakify-cli": "bin/shakify-cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinfinit/shakify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cinfinit/shakify/issues"
+  },
+  "homepage": "https://github.com/cinfinit/shakify#readme",
+ "keywords": [
+  "tree-shaking",
+  "bundle-analyzer",
+  "cli",
+  "esm",
+  "commonjs",
+  "rollup",
+  "javascript",
+  "npm",
+  "module-inspector",
+  "package-analyzer",
+  "code-size",
+  "shake",
+  "optimize",
+  "bundle-size",
+  "import-size",
+  "module-format",
+  "side-effects",
+  "dependency-checker",
+  "npm-inspector",
+  "performance-tools"
+],
+  "author": "cinfinit",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "axios": "^1.10.0",
+    "gzip-size": "^7.0.0",
+    "ora": "^8.2.0",
+    "rollup": "^4.44.2",
+    "tar": "^7.4.3"
+  }
+}
